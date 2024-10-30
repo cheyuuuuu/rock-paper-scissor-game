@@ -1,0 +1,31 @@
+body {
+  display: flex;
+}
+body button {
+  margin: 5px;
+}
+body canvas {
+  margin: 5px;
+  border: 2px solid lawngreen;
+  background-color: white;
+}
+body div#outside {
+  width: 120px;
+  margin: 2px;
+}
+body div#outside div.infoArea {
+  display: flex;
+  width: 100px;
+  height: 50px;
+}
+body div#outside div.infoArea div.countArea {
+  color: red;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+body div#outside div.infoArea div.rankArea {
+  width: 60px;
+  height: 40px;
+  font-size: small;
+}/*# sourceMappingURL=style.css.map */

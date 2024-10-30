@@ -1,0 +1,36 @@
+body{
+  display: flex;
+  button{
+    margin: 5px;
+  }
+  canvas{
+    margin: 5px;
+    border: 2px solid lawngreen;
+    background-color: white;
+  }
+  div#outside{
+    width: 120px;
+    margin: 2px;
+    div.infoArea{
+      display: flex;
+      
+      width: 100px;
+      height: 50px;
+      
+      div.countArea{
+        color: red;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        
+      }
+      div.rankArea{
+        
+        width: 60px;
+        height: 40px;
+        font-size: small;
+      }
+    }
+    
+  }
+}
