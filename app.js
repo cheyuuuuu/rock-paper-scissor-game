@@ -338,8 +338,7 @@ function gameStart(){
     paperRank.innerText = `第 1 名`;
     pwinner.className = "winner";
     pwinner.id = "winner";
-    pwinner.innerText = "林昰斈被我打爛 ！";
-    // pwinner.innerText = "paperWin ！";
+    pwinner.innerText = "paperWin ！";
     document.getElementById("paperCountArea").after(paperRank);
     document.getElementById("win").after(pwinner);
     console.log("paperWin");
@@ -355,8 +354,7 @@ function gameStart(){
     scissorRank.innerText = `第 1 名`;
     srwinner.className = "winner";
     srwinner.id = "winner";
-    srwinner.innerText = "林昰斈被我打爛 ！";
-    // srwinner.innerText = "scissorWin ！";
+    srwinner.innerText = "scissorWin ！";
     document.getElementById("scissorCountArea").after(scissorRank);
     document.getElementById("win").after(srwinner);
     console.log("scissorWin");
@@ -372,8 +370,7 @@ function gameStart(){
     stoneRank.innerText = `第 1 名`;
     swinner.className = "winner";
     swinner.id = "winner";
-    swinner.innerText = "林昰斈被我打爛 ！";
-    // swinner.innerText = "stoneWin ！";
+    swinner.innerText = "stoneWin ！";
     document.getElementById("stoneCountArea").after(stoneRank);
     document.getElementById("win").after(swinner);
     console.log("stoneWin");
